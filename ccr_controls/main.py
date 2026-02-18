@@ -1,5 +1,5 @@
 def run() -> None:
-    print("CCR Data Control Engine started.")
+        print("Main branch version")
 
 
 if __name__ == "__main__":
