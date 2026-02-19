@@ -1,5 +1,5 @@
 def run() -> None:
-        print("Main branch version")
+        print("Feature branch version")
 
 
 if __name__ == "__main__":
