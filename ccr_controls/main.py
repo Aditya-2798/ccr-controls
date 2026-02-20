@@ -1,6 +1,13 @@
-def run() -> None:
-        print("Main branch version")
+from ccr_controls.validators import validate_volatility,ValidationError
+from typing import Iterable
 
 
-if __name__ == "__main__":
-    run()
+def runvolcheck(vols: Iterable[float]) ->None:
+    try:
+        validate_volatility(vols)
+        print("Successful")
+    except ValidationError as e:
+        print(f"Validation failed:\n{e}")
+
+runvolcheck([float("nan"), -1, 10, "0.3", None, float("inf")])
+     
