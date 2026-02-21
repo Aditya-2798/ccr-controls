@@ -40,5 +40,5 @@ def validate_volatility(vols: Iterable[float])-> None:
         if vol>5.0:
             errors.append(f"Volatility value unrealistically high ({vol}) at index {idx}")
     if errors:
-            raise ValidationError(errors)
+            raise ValidationError("\n".join(errors))
         
