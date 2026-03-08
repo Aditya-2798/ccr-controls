@@ -11,3 +11,7 @@ def runvolcheck(vols: Iterable[float]) ->None:
 
 runvolcheck([float("nan"), -1, 10, "0.3", None, float("inf")])
      
+gen =iter (x for x in range(3))
+
+print(list(gen))
+print(list(gen))

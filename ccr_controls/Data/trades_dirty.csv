@@ -1,0 +1,15 @@
+TradeID,Trade Date,Trader,Desk,Product,Qty,Price,Notional,Currency,Status,Comment
+T001,2024-01-02,Alice,Equities,Stock,100,150,,USD,Completed,
+T002,2024/01/02,bob,Equities,Stock,200,149.5,29900,USD,Completed,
+T003,02-01-2024,Charlie,FX,FX Forward,-100000,1.09,,EUR,Completed,Manual entry
+T004,2024-01-03,Alice,Equities,Option,50,12.5,625,USD,Completed,
+T005,2024-01-03,Alice,Equities,Option,50,12.5,630,USD,Completed,Wrong notional?
+T006,2024-01-04,David ,Rates,Bond,1000000,0.99,990000,USD,Completed,
+T007,,Eve,FX,FX Forward,200000,1.10,220000,EUR,Completed,
+T008,2024-01-05,Frank,Equities,Stock,abc,145,14500,USD,Completed,Qty error
+T009,2024-01-05,George,FX,FX Forward,-50000,1.08,-54000,EUR,Cancelled,
+T010,2024-01-06,alice,Equities,Stock,100,152,15200,USD,Completed,
+T011,2024-01-06,Bob,Equities,Stock,100,152,15200,USD,Completed,Duplicate?
+T011,2024-01-06,Bob,Equities,Stock,100,152,15200,USD,Completed,Duplicate?
+T012,2024-13-06,Helen,Rates,Bond,2000000,0.98,1960000,USD,Completed,Invalid date
+T013,2024-01-07,Ian,FX,FX Forward,100000,1.11,,EUR,Completed,
